@@ -1,5 +1,7 @@
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
+scriptencoding utf-8
+set encoding=utf-8
 set nocompatible
 
 " TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
@@ -17,7 +19,7 @@ set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
-set autoread                    "Reload files changed outside vim
+" set autoread                    "Reload files changed outside vim
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -115,3 +117,20 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+map <C-I> :pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>
+imap <C-I> <ESC>:pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>i
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=236 guibg=#dddddd
+let g:syntastic_cpp_compiler='clang++'
+let g:syntastic_cpp_compiler_options=' -std=c++11 -stdlib=libc++ -lc++abi'
+let g:syntastic_auto_loc_list=0
+colorscheme duskish
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_autoclose_preview_window_after_insertion=1
+noremap <leader>jd :YcmCompleter GoTo<CR>
+noremap <leader>jdi :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gl :Extradite<CR>
+so ~/.vim/my-lightline.vim
+au BufRead,BufNewFile *.qs setfiletype javascript
+set exrc
