@@ -89,8 +89,8 @@ set nofoldenable        "dont fold by default
 
 " ================ Completion =======================
 
-set wildmode=list:longest
-set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+" set wildmode=list:longest
+" set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 set wildignore+=*vim/backups*
 set wildignore+=*sass-cache*
@@ -121,16 +121,17 @@ map <C-I> :pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>
 imap <C-I> <ESC>:pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>i
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=236 guibg=#dddddd
-let g:syntastic_cpp_compiler='clang++'
-let g:syntastic_cpp_compiler_options=' -std=c++11 -stdlib=libc++ -lc++abi'
-let g:syntastic_auto_loc_list=0
+" let g:syntastic_cpp_compiler='clang++'
+" let g:syntastic_cpp_compiler_options=' -std=c++11 -stdlib=libc++ -lc++abi'
+" let g:syntastic_auto_loc_list=0
 colorscheme duskish
 let g:ycm_confirm_extra_conf = 0
-let g:ycm_autoclose_preview_window_after_completion=1
-let g:ycm_autoclose_preview_window_after_insertion=1
+let g:ycm_server_python_interpreter = '/usr/bin/python2'
+" let g:ycm_autoclose_preview_window_after_completion=1
+" let g:ycm_autoclose_preview_window_after_insertion=1
 noremap <leader>jd :YcmCompleter GoTo<CR>
 noremap <leader>jdi :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gl :Extradite<CR>
 so ~/.vim/my-lightline.vim
 au BufRead,BufNewFile *.qs setfiletype javascript
-set exrc
+" set exrc
