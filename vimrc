@@ -127,6 +127,7 @@ highlight ColorColumn ctermbg=236 guibg=#dddddd
 colorscheme duskish
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_server_python_interpreter = '/usr/bin/python2'
+let g:rtagsRcCmd = '/home/ismailp/projects/rtags-trunk/rtags-prefix/bin/rc'
 " let g:ycm_autoclose_preview_window_after_completion=1
 " let g:ycm_autoclose_preview_window_after_insertion=1
 noremap <leader>jd :YcmCompleter GoTo<CR>
