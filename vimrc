@@ -136,3 +136,5 @@ nnoremap <leader>gl :Extradite<CR>
 so ~/.vim/my-lightline.vim
 au BufRead,BufNewFile *.qs setfiletype javascript
 " set exrc
+set rtp+=~/.fzf
+
