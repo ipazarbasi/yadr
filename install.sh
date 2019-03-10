@@ -1,11 +1,14 @@
 #!/bin/sh
 
-if [ ! -d "$HOME/.yadr" ]; then
+if [ ! -d "${HOME}/.yadr" ]; then
     echo "Installing YADR for the first time"
-    git clone --depth=1 https://github.com/skwp/dotfiles.git "$HOME/.yadr"
-    cd "$HOME/.yadr"
+    git clone --recursive-submodules -j2 https://github.com/ipazarbasi/yadr.git "${HOME}/.yadr"
+    cd "${HOME}/.yadr"
     [ "$1" = "ask" ] && export ASK="true"
-    rake install
 else
     echo "YADR is already installed"
 fi
+
+./install-prezto.sh
+./install-fzf.sh
+./install-vundle.sh
