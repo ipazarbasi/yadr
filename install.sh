@@ -14,3 +14,4 @@ fi
 "${yadr_dir}/install-prezto.sh"
 "${yadr_dir}/install-fzf.sh"
 "${yadr_dir}/install-vundle.sh"
+"${yadr_dir}/install-home-symlinks.sh"

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+yadr_dir="${HOME}/.yadr"
+
+ln -s "${yadr_dir}/irb/aprc" "${HOME}/.aprc"
+ln -s "${yadr_dir}/ctags/ctags" "${HOME}/.ctags"
+ln -s "${yadr_dir}/vimify/editrc" "${HOME}/.editrc"
+ln -s "${yadr_dir}/git/gitconfig" "${HOME}/.gitconfig"
+ln -s "${yadr_dir}/git/gitignore" "${HOME}/.gitignore"
+ln -s "${yadr_dir}/vimify/inputrc" "${HOME}/.inputrc"
+ln -s "${yadr_dir}/tmux/tmux.conf" "${HOME}/.tmux.conf"
+ln -s "${yadr_dir}/vim" "${HOME}/.vim"
+ln -s "${yadr_dir}/vimrc" "${HOME}/.vimrc"
+ln -s "${yadr_dir}/zsh/prezto/runcoms/zlogin" "${HOME}/.zlogin"
+ln -s "${yadr_dir}/zsh/prezto/runcoms/zlogout" "${HOME}/.zlogout"
+ln -s "${yadr_dir}/zsh/prezto" "${HOME}/.zprezto"
+ln -s "${yadr_dir}/zsh/prezto-override/zpreztorc" "${HOME}/.zpreztorc"
+ln -s "${yadr_dir}/zsh/prezto/runcoms/zprofile" "${HOME}/.zprofile"
+ln -s "${yadr_dir}/zsh/prezto/runcoms/zshenv" "${HOME}/.zshenv"
+ln -s "${yadr_dir}/zsh/prezto/runcoms/zshrc" "${HOME}/.zshrc"
