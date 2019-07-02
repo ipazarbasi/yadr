@@ -10,4 +10,4 @@ else
   git -C "${vundle_dir}" pull
 fi
 
-vim +PluginInstall +qall
+vim +BundleInstall +qall
