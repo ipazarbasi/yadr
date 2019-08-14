@@ -117,8 +117,8 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
-map <C-I> :pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>
-imap <C-I> <ESC>:pyf /home/ismailp/.vim/clang-format/clang-format.py<CR>i
+map <C-I> :py3f /home/ismailp/.vim/clang-format/clang-format.py<CR>
+imap <C-I> <ESC>:py3f /home/ismailp/.vim/clang-format/clang-format.py<CR>i
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=236 guibg=#dddddd
 " let g:syntastic_cpp_compiler='clang++'
