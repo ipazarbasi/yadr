@@ -12,7 +12,7 @@ set t_Co=256
 let g:colors_name = "duskish"
 
 hi IncSearch guifg=#000000 guibg=#ffdfaf guisp=#ffdfaf gui=NONE ctermfg=0 ctermbg=220 cterm=underline
-hi WildMenu guifg=#000000 guibg=#dfdf00 guisp=#dfdf00 gui=bold ctermfg=NONE ctermbg=184 cterm=bold
+hi WildMenu guifg=#000000 guibg=#dfdf00 guisp=#dfdf00 gui=bold ctermfg=7 ctermbg=184 cterm=bold
 hi SignColumn guifg=#a8a8a8 guibg=#202020 guisp=#202020 gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi SpecialComment guifg=#df8787 guibg=#202020 guisp=#202020 gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#afafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=162 ctermbg=NONE cterm=NONE
@@ -33,11 +33,11 @@ hi Identifier guifg=#afdf87 guibg=#202020 guisp=#202020 gui=NONE ctermfg=150 cte
 hi SpecialChar guifg=#df8787 guibg=#202020 guisp=#202020 gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#afafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#afafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE
-hi Todo guifg=#000000 guibg=#dfdf00 guisp=#dfdf00 gui=NONE ctermfg=NONE ctermbg=184 cterm=NONE
+hi Todo guifg=#000000 guibg=#dfdf00 guisp=#dfdf00 gui=NONE ctermfg=7 ctermbg=184 cterm=NONE
 hi Special guifg=#df8787 guibg=#1e2028 guisp=#1e2028 gui=NONE ctermfg=174 ctermbg=235 cterm=NONE
 hi LineNr guifg=#9e9e9e guibg=#444444 guisp=#444444 gui=NONE ctermfg=247 ctermbg=238 cterm=NONE
 hi StatusLine guifg=#d0d0d0 guibg=#4e4e4e guisp=#4e4e4e gui=bold ctermfg=252 ctermbg=239 cterm=bold
-hi Normal guifg=NONE guibg=#1e2028 guisp=#1e2028 gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE
+hi Normal guifg=NONE guibg=#1e2028 guisp=#1e2028 gui=NONE ctermfg=7 ctermbg=235 cterm=NONE
 hi Label guifg=#afafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE
 "hi CTagsImport -- no settings --
 hi PMenuSel guifg=#000000 guibg=#767676 guisp=#767676 gui=NONE ctermfg=white ctermbg=33 cterm=NONE
@@ -56,7 +56,7 @@ hi TabLineSel guifg=#d0d0d0 guibg=#202020 guisp=#202020 gui=bold ctermfg=252 cte
 hi Number guifg=#af87ff guibg=NONE guisp=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#5fafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE
 hi Operator guifg=#afafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi CursorLine guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
 "hi Union -- no settings --
 hi TabLineFill guifg=#d0d0d0 guibg=#666666 guisp=#666666 gui=underline ctermfg=252 ctermbg=241 cterm=underline
 hi Question guifg=#87df7f guibg=#202020 guisp=#202020 gui=bold ctermfg=114 ctermbg=NONE cterm=bold
@@ -64,7 +64,7 @@ hi WarningMsg guifg=#ff0000 guibg=#202020 guisp=#202020 gui=bold ctermfg=196 cte
 hi VisualNOS guifg=#9e9e9e guibg=#202020 guisp=#202020 gui=bold,underline ctermfg=247 ctermbg=NONE cterm=bold,underline
 "hi DiffDelete -- no settings --
 hi ModeMsg guifg=#d0d0d0 guibg=#202020 guisp=#202020 gui=bold ctermfg=252 ctermbg=NONE cterm=bold
-hi CursorColumn guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi CursorColumn guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
 hi Define guifg=#dfafdf guibg=#202020 guisp=#202020 gui=NONE ctermfg=182 ctermbg=NONE cterm=NONE
 hi Function guifg=#afdf87 guibg=#202020 guisp=#202020 gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#a8a8a8 guibg=#202020 guisp=#202020 gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
@@ -101,7 +101,7 @@ hi Underlined guifg=#00afff guibg=#202020 guisp=#202020 gui=underline ctermfg=39
 "hi DiffAdd -- no settings --
 hi DiffAdd ctermfg=193 ctermbg=65
 hi TabLine guifg=#d0d0d0 guibg=#666666 guisp=#666666 gui=underline ctermfg=252 ctermbg=241 cterm=underline
-hi titled guifg=#000000 guibg=#fffdfa guisp=#fffdfa gui=NONE ctermfg=NONE ctermbg=230 cterm=NONE
+hi titled guifg=#000000 guibg=#fffdfa guisp=#fffdfa gui=NONE ctermfg=7 ctermbg=230 cterm=NONE
 hi cssboxattr guifg=#92AF72 guibg=NONE guisp=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
 hi htmltag guifg=#00bdec guibg=NONE guisp=NONE gui=NONE ctermfg=45 ctermbg=NONE cterm=NONE
 hi mbenormal guifg=#cfbfad guibg=#2e2e3f guisp=#2e2e3f gui=NONE ctermfg=187 ctermbg=237 cterm=NONE
@@ -119,7 +119,7 @@ hi phpcomparison guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg
 hi rubypredefinedvariable guifg=#666666 guibg=NONE guisp=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 hi diffcomment guifg=#6B6B6B guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi xmlattrib guifg=#007C00 guibg=NONE guisp=NONE gui=NONE ctermfg=2 ctermbg=NONE cterm=NONE
-hi menu guifg=#000000 guibg=#bebebe guisp=#bebebe gui=NONE ctermfg=NONE ctermbg=7 cterm=NONE
+hi menu guifg=#000000 guibg=#bebebe guisp=#bebebe gui=NONE ctermfg=7 ctermbg=7 cterm=NONE
 hi javascriptregexpstring guifg=#aa6600 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi pythonimport guifg=#009000 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE
 hi rubyindentifier guifg=#008aff guibg=NONE guisp=NONE gui=NONE ctermfg=33 ctermbg=NONE cterm=NONE
@@ -129,7 +129,7 @@ hi javascriptnumber guifg=#B3EBBF guibg=NONE guisp=NONE gui=NONE ctermfg=151 cte
 hi rubydata guifg=#555555 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 hi jinjaraw guifg=#aaaaaa guibg=#200000 guisp=#200000 gui=NONE ctermfg=248 ctermbg=52 cterm=NONE
 hi match guifg=#0000FF guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=21 ctermbg=11 cterm=NONE
-hi rubyspaceerror guifg=NONE guibg=#270000 guisp=#270000 gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
+hi rubyspaceerror guifg=NONE guibg=#270000 guisp=#270000 gui=NONE ctermfg=7 ctermbg=52 cterm=NONE
 hi mbevisiblenormal guifg=#cfcfcd guibg=#4e4e8f guisp=#4e4e8f gui=NONE ctermfg=252 ctermbg=60 cterm=NONE
 hi rubyregexpspecial guifg=#a40073 guibg=NONE guisp=NONE gui=NONE ctermfg=126 ctermbg=NONE cterm=NONE
 hi mbevisiblechanged guifg=#eeeeee guibg=#4e4e8f guisp=#4e4e8f gui=NONE ctermfg=255 ctermbg=60 cterm=NONE
@@ -171,7 +171,7 @@ hi phpvarselector guifg=#F3F2CC guibg=NONE guisp=NONE gui=NONE ctermfg=230 cterm
 hi jinjaattribute guifg=#dd7700 guibg=#200000 guisp=#200000 gui=NONE ctermfg=172 ctermbg=52 cterm=NONE
 hi doxygencomment guifg=#ad7b20 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi rubyglobalvariable guifg=#dd7700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
-hi helpnote guifg=#000000 guibg=#ffd700 guisp=#ffd700 gui=NONE ctermfg=NONE ctermbg=220 cterm=NONE
+hi helpnote guifg=#000000 guibg=#ffd700 guisp=#ffd700 gui=NONE ctermfg=7 ctermbg=220 cterm=NONE
 hi diffadded guifg=#ffffff guibg=#7D9662 guisp=#7D9662 gui=NONE ctermfg=15 ctermbg=101 cterm=NONE
 hi pythondoctest guifg=#2f5f49 guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE
 hi rubylocalvariableormethod guifg=#D0D0FF guibg=NONE guisp=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
@@ -187,7 +187,7 @@ hi xmlcomment guifg=#7F7F7F guibg=NONE guisp=NONE gui=NONE ctermfg=8 ctermbg=NON
 hi djangovarblock guifg=#ff0007 guibg=#200000 guisp=#200000 gui=NONE ctermfg=196 ctermbg=52 cterm=NONE
 hi rubyclass guifg=#447799 guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
 hi pythoncomment guifg=#6B6B6B guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
-hi taglistcomment guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
+hi taglistcomment guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=7 ctermbg=28 cterm=NONE
 hi javascriptcssstyles guifg=#dd7700 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 hi javascriptstrings guifg=#e2e4e5 guibg=NONE guisp=NONE gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
 hi cformat guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=NONE cterm=NONE
@@ -196,16 +196,16 @@ hi csspagingprop guifg=#F3F2CC guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermb
 hi javascriptrepeat guifg=#ff0007 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 hi htmlspecialtagname guifg=#66cd66 guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE
 hi pythonfunction guifg=#ee0000 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
-hi lcursor guifg=#000000 guibg=#00df00 guisp=#00df00 gui=NONE ctermfg=NONE ctermbg=40 cterm=NONE
-hi pythonspaceerror guifg=NONE guibg=#270000 guisp=#270000 gui=NONE ctermfg=NONE ctermbg=52 cterm=NONE
+hi lcursor guifg=#000000 guibg=#00df00 guisp=#00df00 gui=NONE ctermfg=7 ctermbg=40 cterm=NONE
+hi pythonspaceerror guifg=NONE guibg=#270000 guisp=#270000 gui=NONE ctermfg=7 ctermbg=52 cterm=NONE
 hi rubyregexpdelimiter guifg=#540063 guibg=NONE guisp=NONE gui=NONE ctermfg=53 ctermbg=NONE cterm=NONE
 hi htmlunderlineitalic guifg=#dcdccc guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
 hi jinjacomment guifg=#008800 guibg=#002300 guisp=#002300 gui=NONE ctermfg=28 ctermbg=22 cterm=NONE
-hi subtitle guifg=#000000 guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi subtitle guifg=#000000 guibg=NONE guisp=NONE gui=NONE ctermfg=7 ctermbg=NONE cterm=NONE
 hi taglisttitle guifg=#ff00af guibg=#000000 guisp=#000000 gui=NONE ctermfg=199 ctermbg=NONE cterm=NONE
 hi csscolor guifg=#B3EBBF guibg=NONE guisp=NONE gui=NONE ctermfg=151 ctermbg=NONE cterm=NONE
 hi htmlarg guifg=#CBC983 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi prompt guifg=NONE guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=NONE ctermbg=15 cterm=NONE
+hi prompt guifg=NONE guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=7 ctermbg=15 cterm=NONE
 hi csscolorattr guifg=#92AF72 guibg=NONE guisp=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
 hi xmlcdataend guifg=#bf0945 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi jinjanumber guifg=#bf0945 guibg=#200000 guisp=#200000 gui=NONE ctermfg=1 ctermbg=52 cterm=NONE
@@ -217,7 +217,7 @@ hi djangocomment guifg=#008800 guibg=#002300 guisp=#002300 gui=NONE ctermfg=28 c
 hi htmlbold guifg=#dcdccc guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
 hi htmlboldunderline guifg=#dcdccc guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
 hi javascriptdoccomment guifg=#aaaaaa guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi taglisttagname guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
+hi taglisttagname guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=7 ctermbg=28 cterm=NONE
 hi htmlunderline guifg=#dcdccc guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
 hi rubypseudovariable guifg=#FFC66D guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi user2 guifg=#00ff00 guibg=#0000df guisp=#0000df gui=NONE ctermfg=10 ctermbg=20 cterm=NONE
@@ -239,7 +239,7 @@ hi cppstltype guifg=#729fcf guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=N
 hi xmlcdatacdata guifg=#ac1446 guibg=#23010c guisp=#23010c gui=NONE ctermfg=125 ctermbg=52 cterm=NONE
 hi rubyaccess guifg=#939264 guibg=NONE guisp=NONE gui=NONE ctermfg=101 ctermbg=NONE cterm=NONE
 hi rubyidentifier guifg=#c6b6fe guibg=NONE guisp=NONE gui=NONE ctermfg=147 ctermbg=NONE cterm=NONE
-hi colorcolumn guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi colorcolumn guifg=NONE guibg=#444444 guisp=#444444 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
 hi htmlstatement guifg=#af5f87 guibg=NONE guisp=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
 hi jinjafilter guifg=#ff0086 guibg=#200000 guisp=#200000 gui=NONE ctermfg=198 ctermbg=52 cterm=NONE
 hi cssgeneratedcontentprop guifg=#F3F2CC guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
@@ -290,7 +290,7 @@ hi xmlcdatastart guifg=#bf0945 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=
 hi rubyinterpolation guifg=#519F50 guibg=NONE guisp=NONE gui=NONE ctermfg=71 ctermbg=NONE cterm=NONE
 hi rubydocumentation guifg=#aaaaaa guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi djangoargument guifg=#0086d2 guibg=#200000 guisp=#200000 gui=NONE ctermfg=32 ctermbg=52 cterm=NONE
-hi gutter guifg=#000000 guibg=#bebebe guisp=#bebebe gui=NONE ctermfg=NONE ctermbg=7 cterm=NONE
+hi gutter guifg=#000000 guibg=#bebebe guisp=#bebebe gui=NONE ctermfg=7 ctermbg=7 cterm=NONE
 hi rubycontrol guifg=#7597c6 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi cssfunction guifg=#CBC983 guibg=NONE guisp=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi rubyclassvariable guifg=#7895B7 guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
@@ -302,7 +302,7 @@ hi phpc1top guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE
 hi doccode guifg=#00aa00 guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE
 hi condtional guifg=#700000 guibg=NONE guisp=NONE gui=NONE ctermfg=52 ctermbg=NONE cterm=NONE
 hi doxygenspecialmultilinedesc guifg=#ad600b guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
-hi taglisttagscope guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=NONE ctermbg=28 cterm=NONE
+hi taglisttagscope guifg=#000000 guibg=#008700 guisp=#008700 gui=NONE ctermfg=7 ctermbg=28 cterm=NONE
 hi browsedirectory guifg=#660000 guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=52 ctermbg=15 cterm=NONE
 hi jinjavariable guifg=#92cd35 guibg=#200000 guisp=#200000 gui=NONE ctermfg=149 ctermbg=52 cterm=NONE
 hi helpHyperTextJump ctermbg=NONE
