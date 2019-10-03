@@ -1,3 +1,22 @@
+# Pre-yadr notes
+
+As noted, this is forked from [yadr](https://github.com/skwp/dotfiles). My default shell is zsh. I don't
+use ruby, so most of the ruby related stuff is removed from yadr. I also removed some aliases that are
+conflicting with the operating system commands. I added my own prompt, called ismailp. I find it less
+distracting and classic-looking. YMMV. fzf is installed separately. I don't know whether yadr did or
+does include fzf. I turned fasd off. I upgraded prezto to then-latest version in May 2019. I use
+MacPorts on macOS. I don't use GNU versions of userland tools on macOS.
+
+I plan to continue removing things I don't need.
+
+I use [Input Mono](https://input.fontbureau.com/) font for my terminal, and IDE. It's awesome.
+
+When I punched in dot files to my favorite search engine, yadr popped up. I read a little about it,
+found it really good, forked it, and used it without modification (except making my own prompt) for
+some time. YADR is an awesome project. I don't know whether there are _better_ ones out there.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
      _     _           _
     | |   | |         | |
     | |___| |_____  __| | ____
