@@ -15,7 +15,6 @@ When I punched in dot files to my favorite search engine, yadr popped up. I read
 found it really good, forked it, and used it without modification (except making my own prompt) for
 some time. YADR is an awesome project. I don't know whether there are _better_ ones out there.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
      _     _           _
     | |   | |         | |
