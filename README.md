@@ -4,8 +4,8 @@ As noted, this is forked from [yadr](https://github.com/skwp/dotfiles). My defau
 use ruby, so most of the ruby related stuff is removed from yadr. I also removed some aliases that are
 conflicting with the operating system commands. I added my own prompt, called ismailp. I find it less
 distracting and classic-looking. YMMV. fzf is installed separately. I don't know whether yadr did or
-does include fzf. I turned fasd off. I upgraded prezto to then-latest version in May 2019. I use
-MacPorts on macOS. I don't use GNU versions of userland tools on macOS.
+does include fzf. I turned fasd off. I upgraded prezto to then-latest version in August 2020 (3888227).
+I use MacPorts on macOS. I don't use GNU versions of userland tools on macOS.
 
 I plan to continue removing things I don't need.
 
