@@ -165,7 +165,7 @@ zstyle ':prezto:module:prompt' theme 'ismailp'
 #
 
 # Enable ssh-agent forwarding.
-# zstyle ':prezto:module:ssh-agent' forwarding 'yes'
+zstyle ':prezto:module:ssh-agent' forwarding 'yes'
 
 # Set ssh-agent identities to load.
 zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'cisco_git_key'
