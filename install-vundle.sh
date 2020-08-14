@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 vim_dir="${HOME}/.yadr/vim"
 vundle_dir="${vim_dir}/bundle/vundle"
 

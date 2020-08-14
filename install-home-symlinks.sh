@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 yadr_dir="${HOME}/.yadr"
 
 ln -sf "${yadr_dir}/ctags/ctags" "${HOME}/.ctags"

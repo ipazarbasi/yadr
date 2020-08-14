@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 yadr_dir="${HOME}/.yadr"
 
 if [ ! -d "${yadr_dir}" ]; then

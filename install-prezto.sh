@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 prezto_dir="${HOME}/.yadr/zsh/prezto"
 
 if [ ! -d "${prezto_dir}" ]; then
