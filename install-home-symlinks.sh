@@ -2,7 +2,6 @@
 
 yadr_dir="${HOME}/.yadr"
 
-ln -sf "${yadr_dir}/irb/aprc" "${HOME}/.aprc"
 ln -sf "${yadr_dir}/ctags/ctags" "${HOME}/.ctags"
 ln -sf "${yadr_dir}/vimify/editrc" "${HOME}/.editrc"
 ln -sf "${yadr_dir}/git/gitconfig" "${HOME}/.gitconfig"
