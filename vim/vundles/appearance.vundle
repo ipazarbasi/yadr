@@ -1,7 +1,0 @@
-Bundle "chrisbra/color_highlight.git"
-Bundle "itchyny/lightline.vim"
-Bundle "xsunsmile/showmarks.git"
-Bundle "chriskempson/base16-vim"
-
-" Required for Gblame in terminal vim
-" Bundle "godlygeek/csapprox.git" 

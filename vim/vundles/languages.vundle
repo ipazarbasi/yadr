@@ -1,6 +1,0 @@
-Bundle "rodjek/vim-puppet"
-Bundle "groenewege/vim-less.git"
-Bundle "jtratner/vim-flavored-markdown.git"
-Bundle "garbas/vim-snipmate.git"
-Bundle "nelstrom/vim-markdown-preview"
-Bundle "honza/vim-snippets"

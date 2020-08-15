@@ -1,0 +1,4 @@
+Plug 'jtratner/vim-flavored-markdown'
+Plug 'garbas/vim-snipmate'
+Plug 'nelstrom/vim-markdown-preview'
+Plug 'honza/vim-snippets'

@@ -7,13 +7,20 @@ distracting and classic-looking. YMMV. fzf is installed separately. I don't know
 does include fzf. I turned fasd off. I upgraded prezto to then-latest version in August 2020 (3888227).
 I use MacPorts on macOS. I don't use GNU versions of userland tools on macOS.
 
-I plan to continue removing things I don't need.
+I replaced vundle with vim-plug. The original README of YADR is below, but references to vundle are
+invalid.
+
+I plan to continue removing things I don't need/use. I program mostly in C++ and C. Therefore, vim
+support for other languages will be gradually removed, and maybe support for C++ and C will be
+added.
 
 I use [Input Mono](https://input.fontbureau.com/) font for my terminal, and IDE. It's awesome.
 
 When I punched in dot files to my favorite search engine, yadr popped up. I read a little about it,
 found it really good, forked it, and used it without modification (except making my own prompt) for
 some time. YADR is an awesome project. I don't know whether there are _better_ ones out there.
+
+========
 
 
      _     _           _
