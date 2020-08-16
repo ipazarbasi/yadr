@@ -22,6 +22,7 @@ runtime textobjects.plug
 runtime search.plug
 runtime project.plug
 runtime vim-improvements.plug
+runtime lsp.plug
 
 " The plugins listed in ~/.vim/.plugins.local will be added here to
 " allow the user to add vim plugins to yadr without the need for a fork.
