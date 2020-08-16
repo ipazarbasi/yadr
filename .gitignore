@@ -1,5 +1,6 @@
 custom/zsh
 
+vim/autoload/
 vim/backups
 vim/view
 *un~
