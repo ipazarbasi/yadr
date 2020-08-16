@@ -4,8 +4,8 @@ As noted, this is forked from [yadr](https://github.com/skwp/dotfiles). My defau
 use ruby, so most of the ruby related stuff is removed from yadr. I also removed some aliases that are
 conflicting with the operating system commands. I added my own prompt, called ismailp. I find it less
 distracting and classic-looking. YMMV. fzf is installed separately. I don't know whether yadr did or
-does include fzf. I turned fasd off. I upgraded prezto to then-latest version in August 2020 (3888227).
-I use MacPorts on macOS. I don't use GNU versions of userland tools on macOS.
+does include fzf. I turned fasd off. I upgraded prezto to then-latest version in August 2020 (commit
+3888227). I use MacPorts on macOS, and without GNU versions of userland tools on macOS.
 
 I replaced vundle with vim-plug. The original README of YADR is below, but references to vundle are
 invalid.
@@ -14,11 +14,21 @@ I plan to continue removing things I don't need/use. I program mostly in C++ and
 support for other languages will be gradually removed, and maybe support for C++ and C will be
 added.
 
+I added LSP client support to VIM with vim-lsp. It's currently setup to use
+[ccls](https://github.com/MaskRay/ccls). I use ccls with Visual Studio Code.
+
 I use [Input Mono](https://input.fontbureau.com/) font for my terminal, and IDE. It's awesome.
 
 When I punched in dot files to my favorite search engine, yadr popped up. I read a little about it,
 found it really good, forked it, and used it without modification (except making my own prompt) for
 some time. YADR is an awesome project. I don't know whether there are _better_ ones out there.
+
+This is how VIM looks like when editing:
+![screenshot](https://i.imgur.com/c3xPlOa.png)
+
+
+git log, and shell prompt:
+![screenshot](https://i.imgur.com/iIHAXCq.png)
 
 ========
 
