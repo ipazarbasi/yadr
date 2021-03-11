@@ -135,4 +135,4 @@ so ~/.vim/my-lightline.vim
 au BufRead,BufNewFile *.qs setfiletype javascript
 " set exrc
 set rtp+=~/.fzf
-
+let g:snipMate = { 'snippet_version' : 1 }
