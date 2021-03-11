@@ -168,7 +168,7 @@ zstyle ':prezto:module:prompt' theme 'ismailp'
 zstyle ':prezto:module:ssh-agent' forwarding 'yes'
 
 # Set ssh-agent identities to load.
-zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa_phabricator.key'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
 
 #
 # Syntax Highlighting
