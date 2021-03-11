@@ -121,13 +121,7 @@ map <C-I> :py3f ~/.vim/clang-format/clang-format.py<CR>
 imap <C-I> <ESC>:py3f ~/.vim/clang-format/clang-format.py<CR>i
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=236 guibg=#dddddd
-" let g:syntastic_cpp_compiler='clang++'
-" let g:syntastic_cpp_compiler_options=' -std=c++11 -stdlib=libc++ -lc++abi'
-" let g:syntastic_auto_loc_list=0
 colorscheme duskish
-let g:rtagsRcCmd = '/home/ismailp/projects/rtags-trunk/rtags-prefix/bin/rc'
-" let g:ycm_autoclose_preview_window_after_completion=1
-" let g:ycm_autoclose_preview_window_after_insertion=1
 noremap <leader>jd :YcmCompleter GoTo<CR>
 noremap <leader>jdi :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gl :Extradite<CR>
