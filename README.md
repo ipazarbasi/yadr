@@ -161,9 +161,9 @@ mnemonic aliases. Please feel free to edit them:
 
 ### Git Customizations:
 
-YADR will take over your `~/.gitconfig`, so if you want to store your usernames, please put them into `~/.gitconfig.user`
+The installer links `~/.gitconfig` to YADR's gitconfig, so put your user info in `~/.gitconfig.user`. Alternately, you can set the appropriate environment variables in your `~/.secrets`.
 
-It is recommended to use this file to set your user info. Alternately, you can set the appropriate environment variables in your `~/.secrets`.
+If `~/.gitconfig` is already a regular file, the installer leaves it alone. On such a machine, make that file include `~/.yadr/git/gitconfig` and keep machine-specific settings in it.
 
   * `git l` or `gl`- a much more usable git log
   * `git b` or `gb`- a list of branches with summary of last commit

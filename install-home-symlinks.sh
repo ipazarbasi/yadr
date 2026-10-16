@@ -6,7 +6,11 @@ yadr_dir="${HOME}/.yadr"
 
 ln -sf "${yadr_dir}/ctags/ctags" "${HOME}/.ctags"
 ln -sf "${yadr_dir}/vimify/editrc" "${HOME}/.editrc"
-ln -sf "${yadr_dir}/git/gitconfig" "${HOME}/.gitconfig"
+if [ -L "${HOME}/.gitconfig" ] || [ ! -e "${HOME}/.gitconfig" ]; then
+    ln -sf "${yadr_dir}/git/gitconfig" "${HOME}/.gitconfig"
+else
+    echo "Keeping ${HOME}/.gitconfig: it is a regular file, not a symlink"
+fi
 ln -sf "${yadr_dir}/git/gitignore" "${HOME}/.gitignore"
 ln -sf "${yadr_dir}/vimify/inputrc" "${HOME}/.inputrc"
 ln -sf "${yadr_dir}/tmux/tmux.conf" "${HOME}/.tmux.conf"
